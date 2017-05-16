@@ -30,8 +30,20 @@ function main(){
             html: items.join( "" )
         }).appendTo( "body" );
     });
-    */
 
+    consider ....
+    $.ajax({
+        url:url,
+        type:"POST",
+        data:data,
+        contentType:"application/json; charset=utf-8",
+        dataType:"json",
+        success: function(){
+            ...
+        }
+    })
+
+    */
     var questions = ["q1", "q2", "q3" ];
     var answers = [["a11", "a12", "a13"], ["a21", "a22", "a23"], ["a31", "a32", "a33"]];
     var n = 0
